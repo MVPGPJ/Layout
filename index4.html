@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }   
+        .left,.right {
+            position: absolute;
+            top: 0;
+            width: 200px;
+        }
+        .left {
+            left: 0;
+            background-color: skyblue;
+        }
+        .right {
+            right: 0;
+            background-color: palegoldenrod;
+        }
+        .middle {
+            margin: 0 200px;
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+		<div class="left">左</div>
+        <div class="middle">中</div>
+        <div class="right">右</div>
+</body>
+</html>
