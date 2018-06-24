@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+	display: flex;
+    align-items: flex-start;
+    background-color: #99CC99;
+}
+.left {
+    width: 150px;
+    background-color: #999966;
+    flex: 0 0 auto;
+}
+.right {
+    margin-left: 100px;
+    background-color: #CC0033;
+    flex: 1 1 auto;
+}

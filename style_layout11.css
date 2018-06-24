@@ -1,0 +1,25 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+html,body{
+	height: 300px;
+	width: 300px;
+}
+.container{
+	overflow: auto;
+	box-sizing: content-box;
+	background-color: deepskyblue;
+}
+.left{
+	float: left;
+	width: 30%;
+	box-sizing: border-box;
+	background-color: pink;
+}
+.right{
+	float: right;
+	width: 70%;
+	box-sizing: border-box;
+	background-color: yellow;
+}
